@@ -155,6 +155,36 @@ a{
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+.contactsViewcontainer{
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.VolunteerViewcontainer{
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.PublicSuggestionViewContainer{
+ 
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.DonationListcontainer {
+ 
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
 h2 {
     text-align: center;
@@ -454,4 +484,32 @@ table {
 .image-block img {
     width: 100%;
     border-radius: 8px;
+}
+@media only screen and (max-width: 600px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .main-content {
+        flex-direction: column;
+    }
+
+    .main-content .content {
+        flex: 1 1 100%;
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .main-content .content {
+        flex: 1 1 48%;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .main-content {
+        gap: 30px;
+    }
+
+    .main-content .content {
+        flex: 1 1 30%;
+    }
 }

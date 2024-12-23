@@ -7,25 +7,9 @@
     <link rel="stylesheet" href="Style.css">
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <img src="Image/LogoPNG.png" alt="Public Awareness Campaign" height="50px" >
-</div>
-<div class="nav">
-            <ul>
-                <li><a href="Index.php">Home</a></li>
-                <li><a href="Donation.php">Donation</a></li>
-                <li><a href="VolunteerRegistration.php">Volunteer Registration</a></li>
-                <li><a href="CommingEvents.php">Coming Events</a></li>
-                <li><a href="PublicSuggestion.php">Public Suggestion</a></li>
-                <li><a href="Contact.php">Contact</a></li>
-            </ul>
-        </div>
-        <div class="CredentialButton">
-        <button><a href="#">Sign Up</a></button>
-        <button><a href="#">Login</a></button>
-        </div>
-    </header>
+    <?php 
+    include 'header.php'
+    ?>
     <main>
         <div class="headDisplay">
         <section class="welcome">
@@ -46,44 +30,44 @@
             
             <br><br>
             <h1 style="text-align: center;">Recent Campaign Summaries</h1>
-            <p  style="text-align: center;">Either individually or used together, rest assured you can find your JaGaSolution that suits your need.</p>
+            <p  style="text-align: center;">Each of these campaign aligns with a specific theme and issue within public health, cleanliness, or environmental responsibility,<br> and encourages action in a concise, memorable way.</p>
         </div>
         <div class="RecentCampaign">
             <div class="RecentCampaign-card">
-                <img src="Image/1.png" alt="Image/1.png">
+                <img src="Image/2.png" alt="Image/2.png">
                 <h3>PUBLIC SMOKING CAMPAIGN</h3>
-                <h4>Rampura, Dhaka -  10 Dec 2024 </h4>
-                <p>A community platform for for making campign.</p>
+                <h5 sty>Clear the Air, Choose Life.</h5>
+                <p style="text-align: justify;">This campaign focuses on raising awareness about the dangers of smoking and encouraging individuals to stop for the sake of their health and the environment.</p>
                 <a href="publicSmoking.php" style="border: 1px solid white; border-radius: 8px;">See More</a>
             </div>
             
             <div class="RecentCampaign-card">
-                <img src="Image/1.png" alt="Image/1.png">
-                <h3>PUBLIC SMOKING CAMPAIGN</h3>
-                <h4>Rampura, Dhaka -  10 Dec 2024 </h4>
-                <p>A community platform for for making campign.</p>
-                <a href="publicSmoking.php" style="border: 1px solid white; border-radius: 8px;">See More</a>
+                <img src="Image/3.png" alt="Image/3.png">
+                <h3>Garbage Management & Cleanliness Campaigns </h3>
+                <h5>Every Piece Matters: Keep Our World Clean</h5>
+                <p style="text-align: justify;">This campaign emphasizes the importance of responsible waste disposal and recycling, urging people to reduce littering and contribute to a cleaner, healthier environment.</p>
+                <a href="Garbage Management.php" style="border: 1px solid white; border-radius: 8px;">See More</a>
             </div>
             <div class="RecentCampaign-card">
-                <img src="Image/1.png" alt="Image/1.png">
-                <h3>PUBLIC SMOKING CAMPAIGN</h3>
-                <h4>Rampura, Dhaka -  10 Dec 2024 </h4>
-                <p>A community platform for for making campign.</p>
-                <a href="publicSmoking.php" style="border: 1px solid white; border-radius: 8px;">See More</a>
+                <img src="Image/4.png" alt="Image/4.png">
+                <h3>Clean Local Bus Seats & Public Health Issues</h3>
+                <h5>Clean Seats, Safe Rides</h5>
+                <p style="text-align: justify;">This campaign promotes public responsibility for keeping local transportation clean and hygienic, particularly encouraging riders to clean up after themselves to maintain a healthy environment for all.</p>
+                <a href="Clean Local Bus Seats.php" style="border: 1px solid white; border-radius: 8px;">See More</a>
             </div>
             <div class="RecentCampaign4-card">
-                <img src="Image/1.png" alt="Image/1.png">
-                <h3>PUBLIC SMOKING CAMPAIGN</h3>
-                <h4>Rampura, Dhaka -  10 Dec 2024 </h4>
-                <p>A community platform for for making campign.</p>
-                <a href="publicSmoking.php" style="border: 1px solid white; border-radius: 8px;">See More</a>
+                <img src="Image/5.png" alt="Image/5.png">
+                <h3>Make Cleanliness a Habit</h3>
+                <h5>Clean Habits, Healthy Lives</h5>
+                <p style="text-align: justify;">This campaign promotes the connection between healthy, clean habits and the overall well-being of communities, encouraging people to engage in activities that benefit both their health and the environment.</p>
+                <a href="Make Cleanliness a Habit.php" style="border: 1px solid white; border-radius: 8px;">See More</a>
             </div>
             <div class="RecentCampaign4-card">
-                <img src="Image/1.png" alt="Image/1.png">
-                <h3>PUBLIC SMOKING CAMPAIGN</h3>
-                <h4>Rampura, Dhaka -  10 Dec 2024 </h4>
-                <p>A community platform for for making campign.</p>
-                <a href="publicSmoking.php" style="border: 1px solid white; border-radius: 8px;">See More</a>
+                <img src="Image/6.png" alt="Image/6.png">
+                <h3>Be the Change, Clean the World</h3>
+                <h5>Bring change, keep the world beautiful!</h5>
+                <p style="text-align: justify;">This campaign aims to raise awareness that if each of us starts by cleaning up our own surroundings, together we can create a cleaner, healthier world. Every small step counts and contributes to big change.</p>
+                <a href="Be the Change.php" style="border: 1px solid white; border-radius: 8px;">See More</a>
             </div>
         </div>
     </div>
@@ -92,8 +76,8 @@
     <div class="DetailsContainer">
         <div class="text-block">
             <h1>STOP POLLUTERS</h1>
-            <p>Polluters must quit debilitating the privileges of defenseless groups and undermining atmosphere science and activity. Give an application directly to the local mayor and we will be forwarding it.</p>
-            <button>Take Action</button>
+            <p>Polluters must quit debilitating the privileges of defenseless groups and undermining atmosphere science and activity. Give an application directly to the local gardians and we will be forwarding it.</p>
+            <button><a href="PublicSuggestion.php">Take Action</a></button>
         </div>
         <div class="image-block">
             <img src="Image/3.png" alt="Campaign Image">
@@ -101,62 +85,9 @@
     </div>
 
    <BR><BR>
-<!-- footer -->
-    <footer class="footer">
-        <div class="footercontainer">
-            <div class="newsletter">
-                <h3>Newsletter</h3>
-                <p>Subscribe to our JaGaUpdates!</p>
-                <input type="email" placeholder="Email Address...">
-                <button>Subscribe</button>
-            </div>
-            <div class="solutions">
-                <h3>Our Solutions</h3>
-                <ul>
-                    <li><a href="#">JaGaApp</a></li>
-                    <li><a href="#">JaGaRonda</a></li>
-                    <li><a href="#">JaGaCount</a></li>
-                    <li><a href="#">JaGaCard</a></li>
-                    <li><a href="#">HeyJaGa</a></li>
-                    <li><a href="#">JaGaPay</a></li>
-                </ul>
-            </div>
-            <div class="about-us">
-                <h3>About Us</h3>
-                <ul>
-                    <li><a href="#">Investor Relation</a></li>
-                </ul>
-            </div>
-            <div class="careers">
-                <h3>Careers</h3>
-                <ul>
-                    <li><a href="#">Join Us</a></li>
-                </ul>
-            </div>
-            <div class="contact-us">
-                <h3>Contact Us</h3>
-                <p>Email: hello@jagaapp.com</p>
-                <p>Phone: +603 7931 9911</p>
-                <div class="social-media">
-                    <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
-                    <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
-                    <a href="#"><img src="linkedin-icon.png" alt="LinkedIn"></a>
-                    <a href="#"><img src="youtube-icon.png" alt="YouTube"></a>
-                </div>
-            </div>
-            <div class="terms">
-                <h3>JaGa Community Service Terms</h3>
-                <ul>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">JaGaSolution Community Agreement</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p> All Rights Reserved.</p>
-        </div>
-    </footer>
-
+    <?php 
+    include 'footer.php'
+    ?>
     </main>
 </body>
 </html>
